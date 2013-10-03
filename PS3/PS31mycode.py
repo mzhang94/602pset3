@@ -18,5 +18,6 @@ if __name__ == "__main__":
         W = numpy.array(eval(sys.argv[1]))
         u = numpy.array([int(x) for x in sys.argv[2]])
         print ''.join([str(int(x)) for x in conv(W,u)])
+
     
     
